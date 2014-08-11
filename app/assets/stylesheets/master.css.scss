@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=News+Cycle);
 @import "bootstrap";
 
 .booyah-box {
@@ -20,13 +21,21 @@ h1, h2, h3, h4, h5, h6 {
 body {
 	background-image: url("/assets/brickwall.png");
 	background-repeat: repeat;
-	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-
+  font-family: 'News Cycle', sans-serif; 
+/*	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+*/
 }
 
-.navbar.navbar-inverse {
+.navbar-inverse {
   background-image: url("/assets/dark_brick_wall_@2X.png");
   border-radius: 0;
   box-shadow: 0px 1px 3px #2a2a2a;
+
 }
+
+.navbar-inverse .navbar-brand {
+  color: #2ecc71;
+  font-family: 'News Cycle', sans-serif;  font-weight: 100;  letter-spacing: -0.3px;
+
+}
+
